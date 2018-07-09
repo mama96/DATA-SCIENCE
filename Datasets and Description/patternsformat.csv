@@ -1,0 +1,20 @@
+condition,prediction,No_Of_Records_Supported,Support,Confidence,Lift
+"diagnosis.2=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,skin
+ discharge_disposition_id=1,7,11,13,14,17,18,23,24,25
+diagnosis.3=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,respiratory 
+ num_diagnoses>=5.004
+ discharge_disposition_id=1,7,13,14,18,23,24,25
+ num_diagnoses< 5.997
+",readmitted=Within30days,cover=99,0%,prob=1.00,
+"diagnosis.2=neoplasms,respiratory",readmitted=Within30days,cover=8682,38%,prob=0.92,
+"diagnosis.2=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,skindischarge_disposition_id=1,7,11,13,14,17,18,23,24,25 diagnosis.3=neoplasms,skin",readmitted=Within30days,cover=1173,5%,prob=0.80,
+"diagnosis.2=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,skin
+   discharge_disposition_id=2,3,4,5,6,8,15,22,28
+",readmitted=Within30days,cover=6688,29%,prob=0.80,
+"diagnosis.2=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,skin
+   discharge_disposition_id=1,7,11,13,14,17,18,23,24,25
+   diagnosis.3=blood,circulatory,congenital anomalies,digestive,endocrine,EXTERNAL,genitourinary,ill-defined conditions,infectious,injury and poisoning,mental disorders,musculoskeletal,nervous,pregnancy,respiratory
+   num_diagnoses>=5.004
+   discharge_disposition_id=1,7,13,14,18,23,24,25
+   num_diagnoses>=5.997
+   max_glu_serum=Norm",readmitted=Within30days,cover=190,1%,prob=0.78,
